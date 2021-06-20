@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "npm": "6.x"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -23,24 +24,24 @@
   },
   "devDependencies": {
     "got": "^11.3.0",
-    "tape": "^4.7.0"
+    "tape": "^4.7.0",
+    "xxxxx": "^1.0.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/KevinQuito/my-portfolio"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
